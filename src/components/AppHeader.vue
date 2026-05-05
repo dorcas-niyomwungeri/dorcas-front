@@ -65,7 +65,7 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { useCartStore } from '../store/cart'
-import { useWishlistStore } from '../store/wishlist'
+import { useWishlistStore } from '../store/wishList'
 import { useAuthStore } from '../store/auth'
 
 
