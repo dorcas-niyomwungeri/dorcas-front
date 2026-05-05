@@ -81,7 +81,7 @@ import { useRouter } from 'vue-router'
 import { useProductsStore } from '../store/products'
 import { useCartStore } from '../store/cart'
 import { useWishlistStore } from '../store/wishList'
-import { useToast } from '../composables/useToast'
+import { useToast } from '../composables/UseToast'
 
 const props = defineProps({ id: { type: String, required: true } })
 const productsStore = useProductsStore()
