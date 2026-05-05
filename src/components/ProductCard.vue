@@ -111,7 +111,7 @@ function starString(rate) {
   border-radius: 50%; display: flex; align-items: center; justify-content: center;
   transition: all 0.2s; z-index: 2;
 }
-.wish-btn.active { color: #e74c3c; border-color: #e74c3c; }
+.wish-btn.active { color: #3e3838; border-color: #e74c3c; }
 .wish-btn:hover { background: var(--bg-3); }
 .card-body { padding: 1rem; }
 .category-tag {
