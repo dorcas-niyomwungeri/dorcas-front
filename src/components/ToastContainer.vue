@@ -16,7 +16,7 @@
 </template>
 
 <script setup>
-import { useToast } from '../composables/useToast'
+import { useToast } from '../composables/UseToast'
 const { toasts } = useToast()
 </script>
 
