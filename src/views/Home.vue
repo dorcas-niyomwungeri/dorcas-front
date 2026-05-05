@@ -29,7 +29,6 @@
         </div>
         <div class="hero-visual">
           <div class="hero-circle"></div>
-          <img src="c:\Users\USER1\Downloads\ttt-removebg-preview.png" alt="Featured product" class="hero-img" />
         </div>
       </div>
     </section>
