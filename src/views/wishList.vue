@@ -1,8 +1,8 @@
 <script setup>
-import { useWishlistStore } from '../store/wishlist'
+import { useWishlistStore } from '../store/wishList'
 import { useCartStore } from '../store/cart'
 
-const wishlist = useWishlistStore()
+const wishlist = useWishListStore()
 const cart = useCartStore()
 
 const moveToCart = (item) => {

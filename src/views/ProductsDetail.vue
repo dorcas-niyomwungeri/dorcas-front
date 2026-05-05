@@ -80,7 +80,7 @@ import { ref, computed, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { useProductsStore } from '../store/products'
 import { useCartStore } from '../store/cart'
-import { useWishlistStore } from '../store/wishlist'
+import { useWishlistStore } from '../store/wishList'
 import { useToast } from '../composables/useToast'
 
 const props = defineProps({ id: { type: String, required: true } })
@@ -103,7 +103,7 @@ function addToCart() {
 
 function toggleWish() {
   wishlist.toggle(product.value)
-  show(isWished.value ? 'Added to wishlist!' : 'Removed from wishlist')
+  show(isWished.value ? 'Added to wishList!' : 'Removed from wishlist')
 }
 
 function starString(rate) {

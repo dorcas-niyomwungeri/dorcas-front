@@ -20,7 +20,7 @@ const logout = () => {
       <nav>
         <router-link to="/profile/orders">📦 Orders</router-link>
         <router-link to="/profile/settings">⚙️ Settings</router-link>
-        <router-link to="/wishlist">❤️ Wishlist</router-link>
+        <router-link to="/wishList">❤️ Wishlist</router-link>
       </nav>
 
       <button class="logout" @click="logout">

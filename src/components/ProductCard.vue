@@ -45,7 +45,7 @@
 <script setup>
 import { computed } from 'vue'
 import { useCartStore } from '../store/cart'
-import { useWishlistStore } from '../store/wishlist'
+import { useWishlistStore } from '../store/wishList'
 import { useToast } from '../composables/useToast'
 
 const props = defineProps({ product: { type: Object, required: true } })
